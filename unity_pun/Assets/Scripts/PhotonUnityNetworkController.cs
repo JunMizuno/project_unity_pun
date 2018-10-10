@@ -11,8 +11,10 @@ public class PhotonUnityNetworkController : MonoBehaviour {
     /// </summary>
 	void Start () {
         // マスターサーバーへ接続
-        PhotonNetwork.OfflineMode = false;
+        //PhotonNetwork.OfflineMode = false;
         PhotonNetwork.ConnectUsingSettings();
+        //PhotonNetwork.JoinLobby();
+        //PhotonNetwork.JoinRandomRoom();
 	}
 	
     /// <summary>
